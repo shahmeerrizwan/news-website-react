@@ -7,6 +7,7 @@ import NewsComponent1 from '../Components/NewsComponents/NewsComponent1'
 import Card1 from '../Components/Cards/Card1'
 import Card2 from '../Components/Cards/Card2'
 import BreakLine from '../BreakLine/BreakLine'
+import Card3 from '../Components/Cards/Card3'
 
 
 
@@ -18,7 +19,6 @@ export default function Home() {
         <div>
 
             <Slider />
-            {/* <SideBar /> */}
             <NewsComponent1 />
             <BreakLine />
             {/* <Card /> */}
@@ -27,6 +27,10 @@ export default function Home() {
 
             <Card2 />
             <BreakLine />
+            <Card3 />
+            <BreakLine />
+            {/* <SideBar /> */}
+
 
         </div>
     )

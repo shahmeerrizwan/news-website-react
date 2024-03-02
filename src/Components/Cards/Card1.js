@@ -13,7 +13,7 @@ export default function Card1() {
                 <div className="meta">
                     <div className="photo"></div>
                     <ul className="details">
-                        <li className="author"><a href="/">Muhammad Shahmeer Rizwan</a></li>
+                        <li className="author"><a href="/">Anant Ambani</a></li>
                         <li className="date">March. 3, 2024</li>
                         <li className="tags">
                             <ul>

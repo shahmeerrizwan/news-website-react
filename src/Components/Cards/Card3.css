@@ -1,0 +1,16 @@
+h1{
+    font-weight: 800;
+    margin-left: 10px;
+}
+
+
+@media (max-width: 576px){
+    .row>* {
+       
+        width: 50%;}
+}
+
+@media (min-width: 768px){
+.bg-image  {
+ margin-bottom: 10px !important;
+}}
