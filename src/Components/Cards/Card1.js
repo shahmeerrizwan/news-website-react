@@ -7,18 +7,15 @@ export default function Card1() {
     return (
         <div>
             <h1 className='latest'>Latest News </h1>
-
             <div className="blog-card">
-
                 <div className="meta">
-                    <div className="photo"></div>
+                    <div className="ambani"></div>
                     <ul className="details">
                         <li className="author"><a href="/">Anant Ambani</a></li>
                         <li className="date">March. 3, 2024</li>
                         <li className="tags">
                             <ul>
                                 <li><a href="https://www.abc.net.au/news/2024-03-02/india-richest-man-mukesh-ambani-son-anant-ambani-pre-wedding/103537720">Learn More</a></li>
-
                             </ul>
                         </li>
                     </ul>
@@ -37,7 +34,5 @@ export default function Card1() {
                 </div>
             </div>
         </div>
-
-
     )
 }

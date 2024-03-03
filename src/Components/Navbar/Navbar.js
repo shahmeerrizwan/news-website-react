@@ -22,13 +22,12 @@ const Navbar = () => {
     }, [prevScrollPos]);
 
     const handleMenuItemClick = () => {
-        setMenuOpen(false); // Close the hamburger menu
+        setMenuOpen(false);
     };
 
     return (
         <div className={`sticky ${visible ? 'visible' : 'hidden'}`}>
             <div className="logo"> <img src={logo} alt="" /></div>
-
             <nav>
                 <input type="checkbox" id="click" checked={menuOpen} onChange={() => setMenuOpen(!menuOpen)} />
                 <label htmlFor="click" className="menu-btn">

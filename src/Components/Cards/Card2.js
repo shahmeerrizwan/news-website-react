@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import './Card2.css'; // Assuming you have CSS styles in a separate file
+import './Card2.css';
 
 const items = [
     {
@@ -70,7 +70,7 @@ const Slider = () => {
             </ul>
             <div className='nav1'>
                 {items.map((_, index) => (
-                    <button className='btn' data-index={index} key={index} onClick={() => handleButtonClick(index)}></button>
+                    <button className='btn' aria-label="Carousel Button" data-index={index} key={index} onClick={() => handleButtonClick(index)}></button>
                 ))}
             </div>
         </main>

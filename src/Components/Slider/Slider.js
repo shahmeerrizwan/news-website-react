@@ -4,8 +4,6 @@ import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import './Slider.css';
 
 
-
-
 export default function Add() {
     return (
         <div>
@@ -22,8 +20,6 @@ export default function Add() {
                     </div>
                 </div>
             </div>
-
-
         </div>
     )
 }

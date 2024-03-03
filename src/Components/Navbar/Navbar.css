@@ -11,6 +11,8 @@ nav{
   width: 100%;
   background: #1b1b1b;
   align-items: center;
+ 
+  
   justify-content: center;
   padding: 0 50px 0 100px;
   flex-wrap: wrap;
@@ -72,11 +74,11 @@ nav ul li a::before {
   width: 0%;
   height: 2px;
   background-color: #ff0000;
-  transition: width 0.5s ease; /* Transition for width */
+  transition: width 0.5s ease; 
 }
 
 nav ul li a:hover::before {
-  width: 100%; /* Expand the width to 100% on hover */
+  width: 100%; 
 }
 nav .menu-btn i{
   color: #fff;
@@ -84,7 +86,7 @@ nav .menu-btn i{
   cursor: pointer;
   display: none;
 }
-input[type="checkbox"]{
+input[type="checkbox" ]{
   display: none;
 }
 .home{
@@ -110,9 +112,6 @@ input[type="checkbox"]{
 .newslogo{
   display: none;
 }
-
-
-
 
 @media (max-width: 1200px){
     nav{

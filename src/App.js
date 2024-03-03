@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from './Components/Navbar/Navbar';
 import Home from './Pages/Home';
 import News from './Pages/News';
+import Footer from './Footer/Footer';
 
 
 
@@ -13,7 +14,7 @@ function App() {
         <Navbar />
 
         <Routes>
-          <Route exact path="/home" element={<Home />} />
+          <Route exact path="/" element={<Home />} />
           <Route exact path="/" element={<News />} />
           <Route exact path="/" element={<News />} />
           <Route exact path="/" element={<News />} />
@@ -22,6 +23,7 @@ function App() {
           <Route exact path="/" element={<News />} />
           <Route exact path="/" element={<News />} />
         </Routes>
+        <Footer />
       </Router>
     </div>
   );

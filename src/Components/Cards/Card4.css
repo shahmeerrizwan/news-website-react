@@ -1,12 +1,9 @@
-h1{
-    font-weight: 800;
-    margin-left: 10px;
-}
 .photo{
-    background-image: url("https://vcdn-vnexpress.vnecdn.net/2024/03/01/Anant-Ambani-Radhika-Merchant-3371-1709297514.jpg");
+    background-image: url("https://tse1.mm.bing.net/th?id=OVF.5JPVMkQd%2b2iYWbmd0uYeXw&pid=Api&h=360&w=480&c=7&rs=1");
     background-position: center;
     background-size: cover;
 }
+
 .blog-card {
     display: flex;
     flex-direction: column;
@@ -21,12 +18,7 @@ h1{
     cursor: pointer;
     z-index: 0;
 }
-.latest{
-    font-size: 50px;
-    font-weight: 900;
-    margin-left: 10px;
-    margin-top: 10px;
-}
+
 .blank{
     text-decoration: none;
 }
@@ -185,15 +177,11 @@ h1{
 .blog-card:hover .details {
     left: 0%;
 }
-
-@media (max-width: 900px) {
-    .latest {
-        margin-top: 23px;
-        font-size: 32px;
-        font-weight: 900;
-        margin-left: 11px;
-    }
-
+.left-child{
+    height: 355px;
+}
+.keyponts li {
+    padding: 0 !important;
 }
 
 @media (min-width: 640px) {
@@ -208,7 +196,7 @@ h1{
     }
 
     .blog-card .description {
-        flex-basis: 100%;
+        flex-basis: 60%;
     }
 
     .blog-card .description:before {
@@ -238,13 +226,3 @@ h1{
         padding-left: 25px;
     }
 }
-@media (max-width: 576px){
-    .row>* {
-       
-        width: 50%;}
-}
-
-@media (min-width: 768px){
-.bg-image  {
- margin-bottom: 10px !important;
-}}
