@@ -35,8 +35,8 @@ const Navbar = () => {
                     <div className="newslogo"><img src={logo} alt="" /></div>
                 </label>
                 <ul>
-                    <li><Link to="/home" onClick={handleMenuItemClick}>Home</Link></li>
-                    <li><Link to="/business" onClick={handleMenuItemClick}>Business</Link></li>
+                    <li><Link to="/" onClick={handleMenuItemClick}>Home</Link></li>
+                    <li><Link to="/news" onClick={handleMenuItemClick}>Business</Link></li>
                     <li><Link to="/entertainment" onClick={handleMenuItemClick}>Entertainment</Link></li>
                     <li><Link to="/general" onClick={handleMenuItemClick}>General</Link></li>
                     <li><Link to="/health" onClick={handleMenuItemClick}>Health</Link></li>
