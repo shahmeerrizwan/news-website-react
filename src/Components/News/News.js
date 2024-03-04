@@ -47,7 +47,7 @@ export default class News extends Component {
                 <h1 className='text-center'>Top News </h1>
                 {loading && <Spinner />}
                 <div className='row'>
-                    {!loading && articles.map((element, index) => (
+                    {!loading && articles && articles.map((element, index) => (
                         <div className='col-md-4' key={`${element.url}-${index}`}>
                             <NewsItem
                                 title={element.title}
