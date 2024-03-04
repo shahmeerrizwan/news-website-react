@@ -12,7 +12,7 @@ const Navbar = () => {
         const handleScroll = () => {
             const currentScrollPos = window.pageYOffset;
             const scrolledPercentage = (currentScrollPos / document.body.scrollHeight) * 100;
-            setVisible(prevScrollPos > currentScrollPos || scrolledPercentage < 5);
+            setVisible(prevScrollPos > currentScrollPos || scrolledPercentage < 1);
             setPrevScrollPos(currentScrollPos);
         };
 

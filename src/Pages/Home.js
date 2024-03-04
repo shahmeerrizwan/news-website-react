@@ -23,7 +23,7 @@ export default function Home() {
             <br />
             <br />
             <br />
-            <News />
+            <News pageSize={5} />
             <Slider />
             <NewsComponent1 />
             <BreakLine />
