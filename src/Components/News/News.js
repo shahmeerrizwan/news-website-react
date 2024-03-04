@@ -15,7 +15,6 @@ export default class News extends Component {
 
     async componentDidMount() {
         await this.fetchArticles();
-        this.setState({ loading: false });
     }
 
     fetchArticles = async (page = 1) => {
@@ -23,36 +22,32 @@ export default class News extends Component {
         this.setState({ loading: true });
         let data = await fetch(url);
         let parsedData = await data.json();
-        this.setState({ loading: false });
-
-        this.setState({ articles: parsedData.articles, page });
+        this.setState({ loading: false, articles: parsedData.articles, page });
     }
 
     handlePrevClick = async () => {
-        console.log("prev");
-        this.setState({ loading: true });
-        const { page } = this.state;
-        if (page > 1) {
-            await this.fetchArticles(page - 1);
+        const { page, loading } = this.state;
+        if (!loading && page > 1) {
+            this.fetchArticles(page - 1);
         }
     }
 
     handleNextClick = async () => {
-        console.log("next");
-        this.setState({ loading: true });
-        const { page } = this.state;
-        await this.fetchArticles(page + 1);
+        const { page, loading } = this.state;
+        if (!loading) {
+            this.fetchArticles(page + 1);
+        }
     }
 
     render() {
-        const { articles, page } = this.state;
+        const { articles, page, loading } = this.state;
 
         return (
             <div className='container m-4'>
                 <h1 className='text-center'>Top News </h1>
-                {this.state.loading && <Spinner />}
+                {loading && <Spinner />}
                 <div className='row'>
-                    {!this.state.loading && articles.map((element, index) => (
+                    {!loading && articles.map((element, index) => (
                         <div className='col-md-4' key={`${element.url}-${index}`}>
                             <NewsItem
                                 title={element.title}
@@ -64,8 +59,8 @@ export default class News extends Component {
                     ))}
                 </div>
                 <div className='container d-flex justify-content-between'>
-                    <button disabled={page <= 1} type='button' className='btn btn-sm btn-dark' onClick={this.handlePrevClick}> Previous</button>
-                    <button disabled={!articles.length} className='btn btn-sm btn-dark' onClick={this.handleNextClick}>Next</button>
+                    <button disabled={loading || page <= 1} type='button' className='btn btn-sm btn-dark' onClick={this.handlePrevClick}> Previous</button>
+                    <button disabled={loading || !articles.length} className='btn btn-sm btn-dark' onClick={this.handleNextClick}>Next</button>
                 </div>
             </div>
         );
