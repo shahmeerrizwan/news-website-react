@@ -129,7 +129,24 @@ export default function Card3() {
                         <a href="https://www.bolnews.com/education/2024/02/fbise-islamabad-announces-matric-exam-date-for-9th-and-10th-class/">Read More</a>
                     </p>
                 </div>
+                <aside className="ag-content_sidebar ">
+                    <div className="js-ag-aside-content js-col left-right">
+                        <div className="ag-content_box lovuujan">
+                            <div className="sm-1">
+                                &#9670;   Israel has accepted truce proposal
+                            </div>
+                            <h3 className='sm-2'>Israel has “more or less accepted” a proposal for a six-week ceasefire in the Gaza Strip, a US official said on Saturday as Palestinian negotiators were expected in Cairo.</h3>
+                            <div className="ag-content_descr">
+                                <p>
+                                    <span className='up'>&#9632;</span> The US official told reporters that “there’s a framework deal” for a ceasefire which “the Israelis have more or less accepted”.
+                                </p>
+                                <h3 className='sm-2'>“Right now, the ball is in the camp of Hamas.”</h3>
+                            </div>
+                        </div>
+                    </div>
+                </aside>
             </div>
+
             <div className=" my-5">
                 <div className="text-center text-white">
                     <div className="container p-4">
@@ -262,6 +279,22 @@ export default function Card3() {
                         <a href="https://www.bolnews.com/defence/2023/07/relief-rescue-operations-by-army-underway-in-flood-hit-areas/">Read More</a>
                     </p>
                 </div>
+                <aside className="ag-content_sidebar ">
+                    <div className="js-ag-aside-content js-col left-right">
+                        <div className="ag-content_box lovuujan">
+                            <div className="sm-1">
+                                &#9670;   Israel has accepted truce proposal
+                            </div>
+                            <h3 className='sm-2'>Israel has “more or less accepted” a proposal for a six-week ceasefire in the Gaza Strip, a US official said on Saturday as Palestinian negotiators were expected in Cairo.</h3>
+                            <div className="ag-content_descr">
+                                <p>
+                                    <span className='up'>&#9632;</span> The US official told reporters that “there’s a framework deal” for a ceasefire which “the Israelis have more or less accepted”.
+                                </p>
+                                <h3 className='sm-2'>“Right now, the ball is in the camp of Hamas.”</h3>
+                            </div>
+                        </div>
+                    </div>
+                </aside>
             </div>
             <div className=" my-5">
                 <div className="text-center text-white">
@@ -403,7 +436,24 @@ export default function Card3() {
                         <a href="https://www.bolnews.com/pakistan/2024/03/pmd-forecasts-two-day-cold-wave-in-karachi-after-torrential-rains/">Read More</a>
                     </p>
                 </div>
+                <aside className="ag-content_sidebar ">
+                    <div className="js-ag-aside-content js-col left-right">
+                        <div className="ag-content_box lovuujan">
+                            <div className="sm-1">
+                                &#9670;   Israel has accepted truce proposal
+                            </div>
+                            <h3 className='sm-2'>Israel has “more or less accepted” a proposal for a six-week ceasefire in the Gaza Strip, a US official said on Saturday as Palestinian negotiators were expected in Cairo.</h3>
+                            <div className="ag-content_descr">
+                                <p>
+                                    <span className='up'>&#9632;</span> The US official told reporters that “there’s a framework deal” for a ceasefire which “the Israelis have more or less accepted”.
+                                </p>
+                                <h3 className='sm-2'>“Right now, the ball is in the camp of Hamas.”</h3>
+                            </div>
+                        </div>
+                    </div>
+                </aside>
             </div>
+
         </div>
     )
 }

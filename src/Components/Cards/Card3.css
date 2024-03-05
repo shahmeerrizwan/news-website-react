@@ -9,6 +9,7 @@ h1{
 }
 .blog-card {
     display: flex;
+    justify-content: space-between;
     flex-direction: column;
     margin: 1rem auto;
     box-shadow: 0 3px 7px -1px rgba(0, 0, 0, 0.1);
@@ -20,6 +21,13 @@ h1{
     overflow: hidden;
     cursor: pointer;
     z-index: 0;
+}
+.left-right{
+    position: relative;
+    
+}
+.lovuujan{
+    margin: 0 !important;
 }
 .latest{
     font-size: 50px;
@@ -208,7 +216,7 @@ h1{
     }
 
     .blog-card .description {
-        flex-basis: 100%;
+        flex-basis: 100% !important;
     }
 
     .blog-card .description:before {

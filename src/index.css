@@ -16,6 +16,50 @@ code {
 
 /* FOR ALL FILES  */
 
+.active-button{
+  font-weight: 500;
+  letter-spacing: 1px;
+  margin: 30px;
+  border-radius: 9px;
+  color: white;
+  background-color: darkred;
+  font-size: 17px;
+  padding: 4px 23px;
+}
+.active-button:hover{
+  background-color: rgb(172, 48, 48);
+}
+.loading-button{
+  font-weight: 500;
+  letter-spacing: 1px;
+  margin: 30px;
+  border-radius: 9px;
+  color: white;
+  background-color: darkred;
+  font-size: 17px;
+  padding: 4px 23px;
+}
+.arrow{
+  font-size: larger;
+  bottom: 1px;
+  position: relative;
+}
+.arroww{
+  bottom: 1px;
+  position: relative;
+}
+.disabled-button{
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-decoration: line-through;
+  margin: 30px;
+  border-radius: 9px;
+  color: rgb(0, 0, 0);
+  background-color: rgb(127, 127, 127);
+  font-size: 17px;
+  padding: 4px 23px;
+}
+
 .latest{
   font-size: 50px;
   font-weight: 900;

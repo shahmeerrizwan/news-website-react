@@ -9,7 +9,6 @@ import Card3 from '../Components/Cards/Card3'
 import VidioCard from '../Components/Cards/VidioCard'
 import Card4 from '../Components/Cards/Card4'
 import VidioCard1 from '../Components/Cards/VidioCard1'
-import News from '../Components/News/News'
 
 
 
@@ -19,11 +18,6 @@ import News from '../Components/News/News'
 export default function Home() {
     return (
         <div>
-            <br />
-            <br />
-            <br />
-            <br />
-            <News pageSize={5} />
             <Slider />
             <NewsComponent1 />
             <BreakLine />

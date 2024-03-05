@@ -35,14 +35,14 @@ const Navbar = () => {
                     <div className="newslogo"><img src={logo} alt="" /></div>
                 </label>
                 <ul>
-                    <li><Link to="/" onClick={handleMenuItemClick}>Home</Link></li>
-                    <li><Link to="/news" onClick={handleMenuItemClick}>Business</Link></li>
-                    <li><Link to="/entertainment" onClick={handleMenuItemClick}>Entertainment</Link></li>
-                    <li><Link to="/general" onClick={handleMenuItemClick}>General</Link></li>
-                    <li><Link to="/health" onClick={handleMenuItemClick}>Health</Link></li>
-                    <li><Link to="/science" onClick={handleMenuItemClick}>Science</Link></li>
-                    <li><Link to="/sports" onClick={handleMenuItemClick}>Sports</Link></li>
-                    <li><Link to="/technology" onClick={handleMenuItemClick}>Technology</Link></li>
+                    <li ><Link onClick={handleMenuItemClick} aria-current="page" to="/">Home</Link></li>
+                    <li ><Link onClick={handleMenuItemClick} to="/general">General</Link></li>
+                    <li ><Link onClick={handleMenuItemClick} to="/business">Business</Link></li>
+                    <li ><Link onClick={handleMenuItemClick} to="/entertainment">Entertainment</Link></li>
+                    <li ><Link onClick={handleMenuItemClick} to="/health">Health</Link></li>
+                    <li ><Link onClick={handleMenuItemClick} to="/science">Science</Link></li>
+                    <li ><Link onClick={handleMenuItemClick} to="/sports">Sports</Link></li>
+                    <li ><Link onClick={handleMenuItemClick} to="/technology">Technology</Link></li>
                 </ul>
             </nav>
         </div>
