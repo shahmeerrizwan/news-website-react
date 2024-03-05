@@ -12,9 +12,6 @@ import VidioCard1 from '../Components/Cards/VidioCard1'
 
 
 
-
-
-
 export default function Home() {
     return (
         <div>

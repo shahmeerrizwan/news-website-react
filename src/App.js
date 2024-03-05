@@ -4,7 +4,6 @@ import Home from './Pages/Home';
 import News from '../src/Components/News/News';
 import LoadingBar from 'react-top-loading-bar'
 import React, { useState } from 'react'
-
 import Footer from './Footer/Footer';
 
 
@@ -12,7 +11,6 @@ import Footer from './Footer/Footer';
 function App() {
   const pageSize = 15;
   const apiKey = "db82359fc09d47dda02078e9710f0167"
-
   const [progress, setProgress] = useState(0)
 
   return (
@@ -21,8 +19,7 @@ function App() {
         <LoadingBar
           height={3}
           color='#f11946'
-          progress={progress}
-        />
+          progress={progress} />
         <Navbar />
         <Routes>
           <Route exact path="/" element={<Home setProgress={setProgress} />} />

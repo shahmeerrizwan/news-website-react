@@ -68,7 +68,9 @@
     border-radius: 10px;
     border: 1px solid rgb(8, 121, 141);
   }
-
+.s-m:hover{
+  background-color: #b52832;
+}
   
  .loveu{
   padding: 0px !important;
@@ -93,9 +95,10 @@ color: white !important;
 position: relative;
 }
 .source{
-    right: 21px;
-    bottom: 320px;
-    color: white;
-    position: relative;
-    background: rgb(0, 0, 0);
+  z-index: 100;
+  right: 20px;
+  bottom: 250px;
+  color: white;
+  position: relative;
+  background: rgb(171, 25, 25);
 }

@@ -7,13 +7,11 @@ export default function Card() {
             <div>
                 <h1 className='latest'>Food</h1>
                 <div className='flex' >
-
                     <div className='left-container flex-col'>
                         <div className='flex left-child'>
                             <div className='img-cont flex-col'>
                                 <img alt='..' src='https://t4.ftcdn.net/jpg/02/84/46/89/360_F_284468940_1bg6BwgOfjCnE3W0wkMVMVqddJgtMynE.jpg' />
                                 <h3>mutton recipees to try this Eid for an added delciousness</h3>
-
                             </div>
                             <div className='keyponts flex-col'>
                                 <li>Brooklyn Backhams sandwich costed profucers..</li>
@@ -21,8 +19,6 @@ export default function Card() {
                                 <li>Prwan paper fry Recipee:How to make this temptin..</li>
                                 <li>3 tempting restaurant-style soup recipes that you..</li>
                             </div>
-
-
                         </div>
                         <div className=' flex left-child-2 ' >
                             <div className=' images '>
@@ -46,7 +42,6 @@ export default function Card() {
 
                                 <h4 className='absolute'>monsoon resipee: Move over regular.. </h4>
                             </div>
-
                             <div className='flex-col images '>
                                 <div className='overflow'>
                                     <img alt='..' src='https://images.pexels.com/photos/1640773/pexels-photo-1640773.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' />
@@ -55,7 +50,6 @@ export default function Card() {
                             </div>
                         </div>
                     </div>
-
                     <div className='right-container flex-col ' >
                         <div className='flex  right-child'>
                             <img alt='..' src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStwAor7czz7cKPLNNbBlF92eCBO8WJRNPPRA&usqp=CAU' />

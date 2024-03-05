@@ -27,7 +27,7 @@ code {
   padding: 4px 23px;
 }
 .active-button:hover{
-  background-color: rgb(172, 48, 48);
+  background-color: #b52832;
 }
 .loading-button{
   font-weight: 500;

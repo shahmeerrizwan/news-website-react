@@ -14,7 +14,6 @@ export default function VidioCard1() {
                             alt=""
                         />
                     </a>
-
                     <iframe className="responsive-video" src='https://www.youtube.com/embed/MqqZtvjay6E?si=pTr4BAq-ckqJcjQU' title='news'
                         allowFullScreen autoPlay loop ></iframe>
                 </div>
